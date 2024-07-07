@@ -19,7 +19,6 @@ void main()
     int n,ct=0;
     float avgtat=0,avgwt=0;
     struct proc p[10],temp;
-    printf("<--Smaller Priority First Scheduling Algorithm Without Arrival Time (Non-Preemptive)-->\n");
     printf("Enter Number of Processes: ");
     scanf("%d",&n);
     for(int i=0;i<n;i++)
